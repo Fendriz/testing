@@ -7,67 +7,75 @@ export const CARDINFO = {
 		id:16,
 		imgUrl:'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0b6bc262472029.5a915904e8982.jpg',
 		color:'#8D0100',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'283'
 	},
 	{
 		id:238,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e1d3c562472029.5a9190922a64f.jpg",
 		color:'#242329',
-		symbol:["images/Cersei_white.svg","images/Cersei_black.svg"]
+		symbol:["images/Cersei_white.svg","images/Cersei_black.svg"],
+		trimborn:'266'
 	},
 	{
 		id:529,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5629cd62472029.5a915904e829f.jpg",
 		color:'#242329',
-		symbol:["images/Jammie_white.svg","images/Jammie_black.svg"]
+		symbol:["images/Jammie_white.svg","images/Jammie_black.svg"],
+		trimborn:'266'
 	},
 	{
 		id:784,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ff09b562472029.5a915904e6e3d.jpg",
 		color:'#3D2304',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'228'
 	},
 	{
 		id:823,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6db28e62472029.5a915904e7344.jpg",
 		color:'#7C7C7C',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'268'
 	},
 	{
 		id:954,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b7d10862472029.5a915904e7d89.jpg",
 		color:'#142547',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'283'
 	},
 	{
 		id:955,
-		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6dad0862472029.5a915904e7b11.jpg",
+		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb59d262472029.5a915904e801d.jpg",
 		color:'#404040',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'278'
 	},
 	{
 		id:957,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7d632c62472029.5a918ffa8e392.jpg",
 		color:'#600000',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'286'
 	},
 	{
 		id:1052,
 		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/41ea3f62472029.5a915904e75cc.jpg",
 		color:'#242329',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
+		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"],
+		trimborn:'273'
 	},
 	{
 		id:2024,
-		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb59d262472029.5a915904e801d.jpg",
+		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6dad0862472029.5a915904e7b11.jpg",
 		color:'#085D34',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
-	},
-	{
-		id:7777,
-		imgUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/41ea3f62472029.5a915904e75cc.jpg",
-		color:'#242329',
-		symbol:["images/mtyrell_white.svg","images/mtyrell_red.svg"]
-	}]
+		symbol:["images/Tormund_white.svg","images/Tormund_red.svg"],
+		trimborn:'?'
+
+		
+		
+	}
+	]
 
 }

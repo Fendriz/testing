@@ -1,0 +1,142 @@
+
+/*Testing*/
+
+.player{
+	text-align: center;
+}
+
+.players{
+	display: inline-block;
+	padding: 60px;
+	vertical-align: top;
+	color: white;
+}
+
+.players img{
+	width: 200px;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+h1{
+	font-size: 50px;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  background:grey;
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+h2 {
+	margin:0;
+}
+
+h3	{
+	margin:0;
+	font-weight: 200;
+}
+h4	{
+	margin:0;
+	font-weight: 200;
+}
+p{
+margin: 0;
+line-height: 1.6;
+}
+
+.flex-container {
+
+	margin: 50px 20px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.hover:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.card:active {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.card {
+  display: grid;
+  border-radius: 18px;
+  grid-template-columns: 300px;
+  grid-template-rows: 40px 300px 55px 140px 60px;
+  grid-template-areas: "name" "image" "faction" "text" "stats";
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+.card__img {
+  grid-area: image;
+  background: url("images/img2.jpg");
+  width: 300px;
+  background-size: cover;
+}
+.fas{
+	margin: 2px;
+	font-size: 20px;
+}
+.value{
+	margin: 2px;
+	font-size: 18px;
+}
+.card__name {
+	grid-area: name;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+	border-top-right-radius:  18px;
+	border-top-left-radius:  18px;
+	color:white;
+	padding: 10px;
+}
+.card__faction{
+	grid-area: faction;
+	color:white;
+	padding: 10px;
+	border:8px solid white;
+}
+.card__stats {
+	grid-area: stats;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	text-align: center;
+	padding-bottom: 3px;
+	color:white;
+}
+.card__stats-gender {
+	padding: 10px;
+	border-right: 1px solid white;
+}
+
+.card__stats-text {
+	padding: 10px;
+	border-right: 1px solid white;
+}
+.card__stats-symbol {
+	text-align: center;
+	color:white;
+	padding: 10px;
+}
+.card__stats-img{
+	width:  30px;
+}
+.card__text {
+	padding: 10px;
+	background-color: white;
+}
